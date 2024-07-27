@@ -8,7 +8,7 @@
         "ans3":"25 A",
         "ans4":"5 A",
         "correct":"ans3",
-        "image":"./Media/images/u1-l1-q1.png"
+        "image":"/Media/images/u1-l1-q1.png"
     },
     {
         "type":"pilot",
@@ -41,7 +41,7 @@
         "ans3":"I(a) < I(b)",
         "ans4":"<math><mfrac><mi>Ia</mi><mi>Ib</mi></mfrac></math> > 1",
         "correct":"ans3",
-        "image":"./Media/images/u1-l1-q4.png"
+        "image":"/Media/images/u1-l1-q4.png"
     },
     {
         "type":"pilot",
