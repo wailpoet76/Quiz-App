@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif,arial,Tahoma;
+}
+
+.quiz-app{
+    margin: 10px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+.quiz-app .quiz-info{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.quiz-app .quiz-info .category{
+    flex: 1;
+}
+
+.quiz-app .quiz-info .count{
+    flex: 1;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.quiz-app  .quiz-area{
+    background-color: #f8f8f8;
+    margin-top: 15;
+    padding: 20px;
+}
+
+.quiz-app  .quiz-area .question-area{
+    margin: 0;
+    margin-bottom: 10px;
+    position: relative;
+    /* display:flex; */
+}
+.quiz-app  .quiz-area .question-area .question{
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+.quiz-app  .quiz-area .question-area .draw{
+    flex: 1;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    max-width: 80%;
+}
+.quiz-app  .quiz-area .question-area .draw img{
+width: 100%;
+}
+
+.quiz-app  .quiz-area .answer-area{
+    margin-top: 15px;
+    padding: 10px 0px;
+}
+
+.quiz-app  .quiz-area .answer-area .answers{
+    background-color: #f8f8f8;
+    margin-top:10px;
+    padding: 0px 20px 20px;
+}
+.quiz-app  .quiz-area .answer-area .answers:not(:last-child){
+    border-bottom: 1px solid #dfdfdf;
+}
+
+/* .quiz-app  .quiz-area .answer-area .answers  label:has(+input[type="radio"]:checked) { */
+.quiz-app  .quiz-area .answer-area .answers  input[type="radio"]:checked+label {
+    color:#0084ff;
+}
+.quiz-app  .quiz-area .answer-area .answers  label {
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+}
+
+.quiz-app .category .btnchoice {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.quiz-app button{
+    background-color:#f5c909 ;
+    padding: 10px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.quiz-app button.submit{
+    background-color: #0084ff;
+    margin: 20px;
+    display: none;
+}
+
+.quiz-app button:hover{
+    background-color:#f59709 ;
+    box-shadow: 3px 3px 10px;
+    transform: translate(2px,2px);
+    -webkit-transform: translate(2px,2px);
+    -moz-transform: translate(2px,2px);
+    -ms-transform: translate(2px,2px);
+    -o-transform: translate(2px,2px);
+}
+.quiz-app .warning{
+    margin-bottom: 10px;
+    color: red;
+    animation: fading 0.5s  infinite forwards ease-in-out;
+    -webkit-animation: fading 0.5s  infinite forwards ease-in-out;
+    display: none;
+}
+@keyframes  fading{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.quiz-app .quiz-info .category .bullets{
+    border-top: 1px solid #dedede;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.quiz-app .quiz-info .category .bullets .Quest-bullet {
+    display: flex;
+}
+.quiz-app .quiz-info .category .bullets .arrow {
+    margin: 0px 5px;
+    padding: 0px 2px;
+    cursor: pointer;
+}
+
+.quiz-app .quiz-info .category .bullets .arrow:hover {
+    scale: 1.3;
+}
+.quiz-app .quiz-info .category .bullets .spans{
+    display: flex;
+    flex: 1;
+    width:fit-content;
+}
+
+.quiz-app .quiz-info .category .bullets .spans span{
+    width: 20px;
+    height: 20px;
+    font-size:10px;
+    padding:2px;
+    background-color: #ddd;
+    margin-right: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.quiz-app .quiz-info .category .bullets .spans span.on{
+    background-color: #0084ff;
+}
+.quiz-app .quiz-info .category .Quest-bullet{
+    height: fit-content;
+}
+.countdown{
+    text-align: right;
+}
+
+.countdown div{
+    margin: 10px auto;
+}

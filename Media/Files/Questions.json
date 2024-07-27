@@ -1,0 +1,68 @@
+[
+    {
+        "type":"pilot",
+        "diff":"HH",
+        "title":"the following graph represents the relation between quantity of electric charges passes theough a conductor and time, , so the electric current intensity = ..........",
+        "ans1":"100 A",
+        "ans2":"50 A",
+        "ans3":"25 A",
+        "ans4":"5 A",
+        "correct":"ans3",
+        "image":"../Media/images/u1-l1-q1.png"
+    },
+    {
+        "type":"pilot",
+        "diff":"HM",
+        "title":"A quantity of charges of 20 coulombs passes across a conductor through 0.5 minute, the electric current intensity passes through that conductor is .........",
+        "ans1":"10 A",
+        "ans2":"40 A",
+        "ans3":"0.67 A",
+        "ans4":"1800 A",
+        "correct":"ans3",
+        "image":null
+    },
+    {
+        "type":"pilot",
+        "diff":"EE",
+        "title":"The quantity of charge that flows through 10 seconds in a wire carrying 5 milli-ampere , the number of electrons that pass through the cross section of the wire is .......",
+        "ans1":"3.125x10<sup>20</sup>",
+        "ans2":"8x10<sup>-21</sup>",
+        "ans3":"3.125x10<sup>17</sup>",
+        "ans4":"1.25x10<sup>-20</sup>",
+        "correct":"ans3",
+        "image":null
+    },
+    {
+        "type":"pilot",
+        "diff":"HH",
+        "title":"the following graph represents the relation between quantity of electric charges passes theough a conductor and time, , so the electric current intensity can be represented by ..........",
+        "ans1":"I(a) > I(b)",
+        "ans2":"I(a) = I(b)",
+        "ans3":"I(a) < I(b)",
+        "ans4":"<math><mfrac><mi>Ia</mi><mi>Ib</mi></mfrac></math> > 1",
+        "correct":"ans3",
+        "image":"../Media/images/u1-l1-q4.png"
+    },
+    {
+        "type":"pilot",
+        "diff":"EE",
+        "title":"If the electric current intensity in a certain conductor is 0.5 A, so the quantity of charges that passes across that wire through 10 minute is.........",
+        "ans1":"300 C",
+        "ans2":"5 C",
+        "ans3":"20 C",
+        "ans4":"100 C",
+        "correct":"ans1",
+        "image":null
+    },
+    {
+        "type":"pilot",
+        "diff":"HE",
+        "title":"A quantity of charges of 200 coulombs passes across a conductor, if the current intensity in that conductor is 2 Amperes, so these charges takes a time to pass equals .........",
+        "ans1":"400 sec",
+        "ans2":"100 sec",
+        "ans3":"0.01 sec",
+        "ans4":"0.0025 sec",
+        "correct":"ans2",
+        "image":null
+    }
+]

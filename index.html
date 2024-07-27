@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/Mainstyle.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+</head>
+<body>
+    <div class="quiz-app" id="close">
+        <div class="quiz-info">
+            <div class="category">
+                <div class="count">
+                    Questions count: <span>3</span>
+                </div>
+                <div class="quiz-area">
+                    <h2>Quiz</h2>
+                    <div class="question-area">
+                        <div class="question">
+                            <p>Question Number: <span><b>1</b></span></p>
+                            <p class="Q">Question tag</p>
+                        </div>
+                        <div class="draw">
+                            <img src="">
+                        </div>
+                    </div>
+                    <div class="answer-area">
+                        <div class="answers">
+                            <input type="radio" name="question" id="ans1" value="0">
+                            <label for="ans1">testing</label>
+                        </div>
+                        <div class="answers">
+                            <input type="radio" name="question" id="ans2" value="1">
+                            <label for="ans2">testing</label>
+                        </div>
+                        <div class="answers">
+                            <input type="radio" name="question" id="ans3" value="2">
+                            <label for="ans3">testing</label>
+                        </div>
+                        <div class="answers">
+                            <input type="radio" name="question" id="ans4" value="3">
+                            <label for="ans4">testing</label>
+                        </div>
+                    </div>
+                    <div class="btnchoice">
+                        <button class="next">Next</button>
+                        <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+                <button class="submit">Submit</button>
+                <div class="warning">Warning! you didn't answer all questions</div>
+                <div class="bullets">
+                    <div class="Quest-bullet">
+
+                        <button class="arrow pre">&lt;</button>
+                        <div class="spans">
+                        </div>
+                        <button class="arrow aft">&gt;</button>
+                    </div>
+                    <div class="countdown">
+                        <div class="exam_time">
+                            <b>Exam time:</b>
+                            <span class="tot_min">00</span> :
+                            <span class="tot_sec">00</span>
+                        </div>
+                        <div class="remain_time">
+                            <b>Remaining time:</b>
+                            <span class="rem_min">00</span> :
+                            <span class="rem_sec">00</span>
+                        </div>
+                        <div class="question_time">
+                            <b>Question time:</b>
+                            <span class="q_min">00</span> :
+                            <span class="q_sec">00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="JS/MainCode.js"></script>
+</html>
