@@ -1,7 +1,6 @@
 /****************************** */
 /*******    Variables       *** */
 /****************************** */
-// sd
 
 var questionCount;//number of questions
 var questionIndex=0;//current question on screen is index+1
@@ -59,7 +58,7 @@ DOMAnswerChecked.forEach(item=>{
         answercheckedValueHTML=e.target.getAttribute("value");
         if (questionIndex===questionCount-1) {
             fn_storeQestion(6);
-            console.log(questionIndex+1);
+            // console.log(questionIndex+1);
         }
     })
 })
@@ -328,7 +327,7 @@ function fn_qTimer(qn)//qn represents question number
 }
 
 function fn_submit() {
-    console.log(submitCondition);
+    // console.log(submitCondition);
     switch (submitCondition) {
         case 0:
             for (let i= 1; i <= questionCount; i++) {
@@ -349,7 +348,7 @@ function fn_submit() {
         for (let i= 1; i <= questionCount; i++) {
             if(window.localStorage.getItem(`A${i}`)==QuestionObj[i-1]["correct"]){
                     score++;
-                    console.log(`Q${i} is correct`);
+                    // console.log(`Q${i} is correct`);
                 }
             }
             window.localStorage.clear();
